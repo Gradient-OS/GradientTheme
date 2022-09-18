@@ -1,0 +1,42 @@
+{
+  "blender": [],
+  "boxes": [
+    "org.gnome.Boxes"
+  ],
+  "calculator": [
+    "org.gnome.Calculator"
+  ],
+  "code": [
+    "code-oss",
+    "com.visualstudio.code.oss",
+    "com.visualstudio.code",
+    "visual-studio-code"
+  ],
+  "discord": [
+    "Discord"
+  ],
+  "file-manager": [
+    "org.xfce.thunar",
+    "thunar",
+    "Thunar",
+    "nautilus"
+  ],
+  "google-chrome": [],
+  "inkscape": [
+    "org.inkscape.Inkscape"
+  ],
+  "photopea": [
+    "com.github.vikdevelop.photopea_app"
+  ],
+  "software": [
+    "ubuntusoftware"
+  ],
+  "spotify": [
+    "com.spotify.Client"
+  ],
+  "steam": [],
+  "terminal": [
+    "org.gnome.Terminal",
+    "gnome-terminal"
+  ]
+}
