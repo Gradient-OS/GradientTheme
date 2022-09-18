@@ -1,0 +1,20 @@
+[Icon Theme]
+Name=SimplisticGradient
+Comment=Simple Icons For The Gradient Linux Distrobution
+Inherits=
+
+Directories=locations,apps
+
+[apps]
+Size=48
+Context=Applications
+MinSize=8
+MaxSize=512
+Type=Scalable
+
+[locations]
+Size=48
+Context=Places
+MinSize=8
+MaxSize=512
+Type=Scalable

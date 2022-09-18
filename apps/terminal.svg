@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="terminal.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="13.900826"
+     inkscape:cx="8.488704"
+     inkscape:cy="20.106718"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="true"
+     inkscape:snap-page="true"
+     inkscape:snap-object-midpoints="true" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8064">
+      <stop
+         style="stop-color:#aa7cff;stop-opacity:1"
+         offset="0"
+         id="stop8060" />
+      <stop
+         style="stop-color:#ff87ca;stop-opacity:1"
+         offset="1"
+         id="stop8062" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8064"
+       id="linearGradient3567"
+       x1="0"
+       y1="48"
+       x2="48"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.97179972,0,0,0.97179972,0.67680591,0.67680602)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8064"
+       id="linearGradient8066"
+       x1="7.417969"
+       y1="16.335219"
+       x2="34.425172"
+       y2="16.335219"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8064"
+       id="linearGradient8387"
+       gradientUnits="userSpaceOnUse"
+       x1="-2"
+       y1="46"
+       x2="46"
+       y2="-2"
+       gradientTransform="matrix(0.92763896,0,0,0.92763896,1.5919427,1.4472207)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8064"
+       id="linearGradient8641"
+       gradientUnits="userSpaceOnUse"
+       x1="7.417969"
+       y1="16.335219"
+       x2="34.425172"
+       y2="16.335219"
+       gradientTransform="matrix(0.92763896,0,0,0.92763896,-2.0602454,1.4472207)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g7942"
+       transform="matrix(1.1130217,0,0,1.1130217,2.6594646,3.0986988)"
+       style="stroke:url(#linearGradient8066);stroke-width:2.16797211;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         d="M 19.525088,17.13393 9.6326888,22.424371 V 20.14151 L 17.459641,16.046853 9.6326888,12.060904 V 9.7780428 l 9.8923992,5.2179692 z"
+         id="path24577"
+         style="fill:none;fill-opacity:1;stroke:url(#linearGradient8387);stroke-width:2.16797211;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         d="M 28.714337,24.185822 H 15.402399 v -1.711108 h 13.311938 z"
+         id="path24579"
+         style="fill:none;fill-opacity:1;stroke:url(#linearGradient8641);stroke-width:2.16797211;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="path24579" />
+    </g>
+    <rect
+       style="fill:none;stroke:url(#linearGradient3567);stroke-width:4.826;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50;paint-order:markers fill stroke"
+       id="rect3434"
+       width="39.126995"
+       height="38.592236"
+       x="4.4365034"
+       y="4.7038832"
+       ry="9.6712904"
+       rx="9.6712904" />
+  </g>
+</svg>
