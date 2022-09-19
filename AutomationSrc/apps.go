@@ -25,7 +25,7 @@ func setAppSym(outDir string, liveUpdate bool, bundle bool) {
 		log.Fatal("Error Whilst Unmarshalling Data\n", err)
 	}
 
-	exec.Command("\\cp", "-R", "./apps/.", tmpBuild+"/apps/").Run()
+	exec.Command("cp", "-R", "./apps/.", tmpBuild+"/apps/").Run()
 	for item, value := range payload {
 		graphic := fmt.Sprintf("%s.svg", item)
 		fmt.Println(graphic)
