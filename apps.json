@@ -19,8 +19,10 @@
     "org.xfce.thunar",
     "thunar",
     "Thunar",
+    "org.gnome.Nautilus",
     "nautilus"
   ],
+  "freecad": [],
   "google-chrome": [],
   "inkscape": [
     "org.inkscape.Inkscape"

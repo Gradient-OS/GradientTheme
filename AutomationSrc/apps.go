@@ -9,34 +9,28 @@ import (
 	"os/exec"
 )
 
-func setAppSym(outDir string, liveUpdate bool, bundle bool) int8 {
+const tmpBuild string = "./../SimplisticGradient"
 
-	content, err := ioutil.ReadFile("./../apps.json")
+func setAppSym(outDir string, liveUpdate bool, bundle bool) {
+
+	content, err := ioutil.ReadFile("./apps.json")
 	if err != nil {
 		log.Fatal("Error opening ./../apps.json\n", err)
 	}
 
-	var payload map[string]map[int]string
+	var payload map[string][]string
 
 	err = json.Unmarshal(content, &payload)
 	if err != nil {
 		log.Fatal("Error Whilst Unmarshalling Data\n", err)
 	}
 
-	exec.Command("cp", "-R", "./apps", "./tempBuild")
-
+	exec.Command("\\cp", "-R", "./apps/.", tmpBuild+"/apps/").Run()
 	for item, value := range payload {
 		graphic := fmt.Sprintf("%s.svg", item)
-		for i, v := range value {
-			os.Symlink(fmt.Sprintf("./tempbuild/%s", graphic), fmt.Sprintf("./tempbuild/%s.svg", v[i]))
+		fmt.Println(graphic)
+		for i := range value {
+			os.Symlink(fmt.Sprintf("./%s", graphic), fmt.Sprintf("%s/apps/%s.svg", tmpBuild, value[i]))
 		}
 	}
-
-	if liveUpdate == true {
-		os.Rename("./tempbuild", outDir)
-	} else if bundle == true && liveUpdate {
-		return 0 // no errors
-	}
-
-	return 1 // An error occurred if it made it this far
 }

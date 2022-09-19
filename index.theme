@@ -1,14 +1,13 @@
-Copyright lucasrpatten 2022
-
+[Icon Theme]
+Name=SimplisticGradient
+Comment=Simple Icons For The Gradient Linux Distrobution
+Directories=locations,apps
+Copyright=lucasrpatten 2022
 Author=lucasrpatten
 Version=0.01
 GitHub=https://github.com/Gradient-OS/GradientTheme
 License=MIT
 
-[Icon Theme]
-Name=SimplisticGradient
-Comment=Simple Icons For The Gradient Linux Distrobution
-Directories=locations,apps
 
 [apps]
 Size=48
