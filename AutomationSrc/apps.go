@@ -7,6 +7,7 @@ import (
 	"log"
 	"os"
 	"os/exec"
+	"time"
 )
 
 const tmpBuild string = "./../SimplisticGradient"
@@ -26,9 +27,9 @@ func setAppSym(outDir string, liveUpdate bool, bundle bool) {
 	}
 
 	exec.Command("cp", "-R", "./apps/.", tmpBuild+"/apps/").Run()
+	fmt.Println(time.Now().Clock())
 	for item, value := range payload {
 		graphic := fmt.Sprintf("%s.svg", item)
-		fmt.Println(graphic)
 		for i := range value {
 			os.Symlink(fmt.Sprintf("./%s", graphic), fmt.Sprintf("%s/apps/%s.svg", tmpBuild, value[i]))
 		}

@@ -22,10 +22,17 @@
     "org.gnome.Nautilus",
     "nautilus"
   ],
+  "firefox": [
+    "org.mozilla.firefox"
+  ],
   "freecad": [],
   "google-chrome": [],
   "inkscape": [
     "org.inkscape.Inkscape"
+  ],
+  "obs": [
+    "com.obsproject.Studio",
+    "obs-studio"
   ],
   "photopea": [
     "com.github.vikdevelop.photopea_app"
