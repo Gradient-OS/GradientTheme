@@ -1,1 +1,8 @@
+# theme cache
 icon-theme.cache
+
+# ignore c package manager
+vckpkg/
+
+#ignore ide config files
+.vscode/
