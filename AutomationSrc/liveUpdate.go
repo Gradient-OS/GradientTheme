@@ -24,7 +24,8 @@ func buildThemeDev() {
 }
 
 func liveUpdate() {
-	os.Remove("/home/ringwraith/.icons/SimplisticGradient/*")
+	os.RemoveAll("/home/ringwraith/.icons/SimplisticGradient")
+	os.MkdirAll("/home/ringwraith/.icons/SimplisticGradient", 0777)
 	for {
 		buildThemeDev()
 		time.Sleep(time.Minute)

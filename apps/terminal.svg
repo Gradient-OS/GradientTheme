@@ -25,19 +25,31 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="13.900826"
-     inkscape:cx="8.488704"
-     inkscape:cy="20.106718"
+     inkscape:cx="16.50981"
+     inkscape:cy="24.710762"
      inkscape:window-width="1920"
-     inkscape:window-height="1012"
+     inkscape:window-height="953"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:snap-page="true"
      inkscape:snap-object-midpoints="true" />
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5443">
+      <stop
+         style="stop-color:#ff0035;stop-opacity:1"
+         offset="0"
+         id="stop5439" />
+      <stop
+         style="stop-color:#ff6271;stop-opacity:1"
+         offset="1"
+         id="stop5441" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient8064">
@@ -52,14 +64,14 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient8064"
+       xlink:href="#linearGradient5443"
        id="linearGradient3567"
-       x1="0"
-       y1="48"
-       x2="48"
-       y2="0"
+       x1="3.0103352"
+       y1="2.052285"
+       x2="47.388153"
+       y2="47.492786"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.97179972,0,0,0.97179972,0.67680591,0.67680602)" />
+       gradientTransform="matrix(1.0157108,0,0,1.0157108,-0.3770623,-0.37706207)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient8064"
@@ -71,24 +83,44 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient8064"
-       id="linearGradient8387"
+       xlink:href="#linearGradient5443"
+       id="linearGradient2947"
+       x1="-1.5030605"
+       y1="1.2350506"
+       x2="42.682392"
+       y2="45.192028"
        gradientUnits="userSpaceOnUse"
-       x1="-2"
-       y1="46"
-       x2="46"
-       y2="-2"
-       gradientTransform="matrix(0.92763896,0,0,0.92763896,1.5919427,1.4472207)" />
+       gradientTransform="matrix(0.90515603,0,0,0.90515603,0.29802098,-2.4875006)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient8064"
-       id="linearGradient8641"
+       xlink:href="#linearGradient5443"
+       id="linearGradient2949"
+       x1="-0.59808081"
+       y1="1.2932767"
+       x2="44.532944"
+       y2="46.454487"
        gradientUnits="userSpaceOnUse"
-       x1="7.417969"
-       y1="16.335219"
-       x2="34.425172"
-       y2="16.335219"
-       gradientTransform="matrix(0.92763896,0,0,0.92763896,-2.0602454,1.4472207)" />
+       gradientTransform="matrix(0.90515603,0,0,0.90515603,-0.36887152,-2.3589373)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5443"
+       id="linearGradient3005"
+       x1="-3.9460609"
+       y1="-2.8262725"
+       x2="36.90456"
+       y2="38.051666"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(3.0358329,1.6379524)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5443"
+       id="linearGradient3039"
+       x1="-4.0983162"
+       y1="-3.0075395"
+       x2="35.896412"
+       y2="36.780384"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(3.0358329,1.6379524)" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -96,26 +128,35 @@
      id="layer1">
     <g
        id="g7942"
-       transform="matrix(1.1130217,0,0,1.1130217,2.6594646,3.0986988)"
-       style="stroke:url(#linearGradient8066);stroke-width:2.16797211;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
+       transform="matrix(1.1633141,0,0,1.1633141,1.6951836,2.1542649)"
+       style="stroke:url(#linearGradient8066);stroke-width:2.16797;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
+      <rect
+         style="fill:#000625;fill-opacity:1;stroke:none;stroke-width:0.679148;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:50"
+         id="rect1105"
+         width="35.153851"
+         height="34.673389"
+         x="1.5965896"
+         y="1.442186"
+         rx="1.9629805"
+         ry="1.9629805" />
       <path
-         d="M 19.525088,17.13393 9.6326888,22.424371 V 20.14151 L 17.459641,16.046853 9.6326888,12.060904 V 9.7780428 l 9.8923992,5.2179692 z"
+         d="M 17.304383,13.149944 8.3502148,17.938619 V 15.872274 L 15.434831,12.16597 8.3502148,8.5580627 V 6.4917171 l 8.9541682,4.7230759 z"
          id="path24577"
-         style="fill:none;fill-opacity:1;stroke:url(#linearGradient8387);stroke-width:2.16797211;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="fill:url(#linearGradient2949);fill-opacity:1;stroke:url(#linearGradient3005);stroke-width:1.34768;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
-         d="M 28.714337,24.185822 H 15.402399 v -1.711108 h 13.311938 z"
+         d="M 24.554318,19.811066 H 14.239591 v -1.548819 h 10.314727 z"
          id="path24579"
-         style="fill:none;fill-opacity:1;stroke:url(#linearGradient8641);stroke-width:2.16797211;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         style="fill:url(#linearGradient2947);fill-opacity:1;stroke:url(#linearGradient3039);stroke-width:1.34768;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:label="path24579" />
     </g>
     <rect
-       style="fill:none;stroke:url(#linearGradient3567);stroke-width:4.826;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50;paint-order:markers fill stroke"
+       style="fill:none;stroke:url(#linearGradient3567);stroke-width:4.18074;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50;paint-order:markers fill stroke"
        id="rect3434"
-       width="39.126995"
-       height="38.592236"
-       x="4.4365034"
-       y="4.7038832"
-       ry="9.6712904"
-       rx="9.6712904" />
+       width="40.89497"
+       height="40.33604"
+       x="3.5525186"
+       y="3.83198"
+       ry="5.8123078"
+       rx="5.8123078" />
   </g>
 </svg>
