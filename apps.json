@@ -6,6 +6,7 @@
   "calculator": [
     "org.gnome.Calculator"
   ],
+  "cura": ["cura-icon"],
   "code": [
     "code-oss",
     "com.visualstudio.code.oss",

@@ -1,10 +1,7 @@
 package main
 
-import "os"
+var cmd *Command = command()
 
 func main() {
-	os.Remove("~/.icons/SimplisticGradient/icon-theme.cache")
-	for {
-		liveUpdate()
-	}
+	flags()
 }
